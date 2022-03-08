@@ -1,6 +1,6 @@
 ## Animated Auto Scrollable Header Menu
 
-<!-- ! 스크린샷 -->
+<img height="350" alt="스크린샷" src="https://github.com/jacobkosmart/Animated-Auto-Scrollable-Header-Menu-Practice/blob/main/Kapture%202022-03-08%20at%2017.05.26.gif">
 
 상단 카테고리 영역을 클릭하면 자동으로 스크롤 되서 리스트가 업데이트 되며, 스크롤 할 경우에도 자동으로 상단 카테고리 영역도 업데이트 되는 기능 구현
 
@@ -400,8 +400,8 @@ extension View {
 	func vBottom() -> some View {
 		self.frame(maxHeight: .infinity, alignment: .bottom)
 	}
-
 	// MARK: -  Horizontal Center
+
 	func hCenter() -> some View {
 		self.frame(maxWidth: .infinity, alignment: .center)
 	}
